@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2481059221217431331}
   - component: {fileID: 6343010925265393064}
   - component: {fileID: 4545189215966902036}
+  - component: {fileID: 8418258112819171557}
   m_Layer: 0
   m_Name: WhitePosition
   m_TagString: Untagged
@@ -106,3 +107,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8418258112819171557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8185396029563264489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b6833774a895d4081a9154314790ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionType: 4
+  xIndex: 0
+  yIndex: 0
+  isMatched: 0
+  isMoving: 0

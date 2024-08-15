@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3349306349818724353}
   - component: {fileID: 662602288318907233}
   - component: {fileID: 3536271269097005584}
+  - component: {fileID: -2597221933387415933}
   m_Layer: 0
   m_Name: pinkPosition
   m_TagString: Untagged
@@ -106,3 +107,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-2597221933387415933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880377255169534696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b6833774a895d4081a9154314790ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionType: 2
+  xIndex: 0
+  yIndex: 0
+  isMatched: 0
+  isMoving: 0
