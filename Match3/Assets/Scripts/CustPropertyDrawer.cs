@@ -9,7 +9,7 @@ public class CustPropertyDrawer : PropertyDrawer
     {
         EditorGUI.PrefixLabel(position, label);
         Rect newposition = position;
-        newposition.y += 18f;
+        newposition.y += 144f;
         SerializedProperty data = property.FindPropertyRelative("rows");
         if(data.arraySize != 8 )
             data.arraySize = 8;
@@ -27,7 +27,7 @@ public class CustPropertyDrawer : PropertyDrawer
             }
 
             newposition.x = position.x;
-            newposition.y += 18f;
+            newposition.y -= 18f;
         }
         
     }
