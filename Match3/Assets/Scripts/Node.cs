@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Node : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public bool isUsable;
+    public GameObject potion;
+
+    public Node(bool _isUsable,GameObject _potion)
     {
-        
+        isUsable = _isUsable;
+        potion = _potion;
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
+
+
+
 }
