@@ -53,7 +53,7 @@ public class Potion : MonoBehaviour
             yield return null;
         }
 
-        transform.position = targetPos;
+        transform.position = _targetPos;
         isMoving = false;
     }
 
